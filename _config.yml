@@ -7,9 +7,9 @@ version: 2
 
 # Personal info
 # 아래 정보들을 본인의 정보로 수정하세요
-name: Song Ji Yeon
-title: 정보보안 & 클라우드 엔지니어 지망
-email: contact@songjiyeon.dev
+name: 송지연 (Song Ji Yeon)
+title: 정보보안 · 클라우드 엔지니어 지망
+email: hello@songjiyeon.dev
 # email_title: Email (Email title override)
 phone:
 # phone_title: Phone (Phone title override)
@@ -60,16 +60,16 @@ additional_links:
 about_profile_image: images/profile.jpg
 # 자기소개 내용을 작성하세요 (Markdown 형식 지원)
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요, 빠르게 성장 중인 **정보보안 & 클라우드 엔지니어** 송지연입니다. 보안 거버넌스와
-  클라우드 네이티브 아키텍처가 만나는 지점을 탐구하며, 재현 가능한 IaC 파이프라인과
-  자동화된 보안 가드레일에 관심이 많습니다.
+  안녕하세요. **정보보안과 클라우드의 경계를 잇는 엔지니어**를 목표로 학습 중인 송지연입니다.
+  거버넌스·위협 대응·개발 효율이 자연스럽게 맞물리는 구조를 설계하는 데 관심이 많습니다.
 
-  - 보안 정책을 단순한 문서가 아닌 **코드로 구현**하여 즉시 배포하고 싶습니다.
-  - 클라우드 리소스 전반의 **가시성과 추적성**을 확보하는 것이 저의 가장 큰 목표입니다.
-  - 사용자, 개발자, 보안팀 모두가 편안한 경험을 갖도록 **명확한 문서와 워크플로**를 준비합니다.
+  - 정책과 표준을 **코드와 자동화 파이프라인**으로 바꿔 즉시 재현 가능한 형태로 남깁니다.
+  - 변화가 빠른 환경에서도 추적 가능한 로그와 문서를 남기는 **투명한 운영 방식**을 지향합니다.
+  - 학습한 내용을 GitHub Pages에 꾸준히 기록하며, 필요할 때마다 쉽게 섹션을 확장할 수 있도록
+    템플릿을 함께 관리합니다.
 
-  이력서는 지속적으로 업데이트될 예정이며, 필요 시 언제든 섹션을 추가/수정할 수 있도록
-  구성해 두었습니다.
+  아래 섹션들은 현재 준비 중인 방향을 정리한 것이며, 실제 경험이 쌓일 때마다 내용을 교체할
+  예정입니다.
 
 # Content Sections
 # 아래 섹션들을 본인의 정보로 수정하세요
@@ -78,53 +78,59 @@ content:
   - title: 프로필
     layout: text
     content: |
-      **보안·클라우드 교차 영역을 탐색 중인 엔지니어**
+      ### 지금까지의 방향
+      - 보안 규제 요구사항을 **클라우드 네이티브 환경**에 맞게 재해석하고, 실행 기준을 문서화합니다.
+      - 거버넌스·DevOps·운영팀 간 협업을 위해 **명확한 책임 구분과 체크리스트**를 준비합니다.
 
-      - 개발팀과 보안팀 사이에서 **정책을 실현 가능한 실행 계획**으로 번역합니다.
-      - 거버넌스, 위험 평가, 운영 대응 프로세스를 **클라우드 네이티브 환경**에 맞춰 재정의합니다.
-      - 새 지식을 빠르게 문서화해 GitHub Pages에 기록하고, 필요 시 섹션을 자유롭게 늘릴 예정입니다.
+      ### 내가 만들고 싶은 가치
+      - 정책/가이드라인을 코드(IaC, Policy as Code)로 제공하여 누구나 쉽게 재사용하도록 돕습니다.
+      - 사고 대응을 자동화(SOAR) 파이프라인으로 정리해 **반복 가능한 대응 시나리오**를 만들고 싶습니다.
+
+      ### 메모 & 향후 계획
+      - 아래 섹션은 현재 준비 중인 콘셉트를 보여주는 임시 텍스트입니다.
+      - 실제 프로젝트와 경험이 생기면 항목을 교체하거나 새 섹션을 추가해 확장합니다.
 
   - title: 희망 직무
     layout: list
     content:
       - layout: left
         border: weak
-        title: 클라우드 보안 엔지니어
-        caption: CSPM · IAM · Zero-Trust
+        title: 정보보안 엔지니어 (클라우드 기반)
+        caption: 보안 아키텍처 · 거버넌스 · 대응 체계
         description: |
-          멀티클라우드 자산 가시성, 계정 보안, 데이터 보호 정책을 코드 중심으로 설계하고
-          운영하는 역할을 지향합니다. 보안 컨트롤을 IaC 템플릿으로 제공하여 개발팀이
-          쉽게 재사용할 수 있도록 만드는 것이 목표입니다.
+          클라우드 전환 과정에서 필수적인 보안 정책/표준을 수립하고, 서비스별 위험을 가시화하는
+          역할을 지향합니다. CSPM, IAM 거버넌스, 데이터 보호 정책을 코드와 문서로 동시 정비해
+          개발팀과 합의된 운영 모델을 제시하려 합니다.
       - layout: left
         border: weak
-        title: 보안 자동화 엔지니어
-        caption: SOAR · IaC · Policy as Code
+        title: 클라우드 보안 자동화 엔지니어
+        caption: IaC · DevSecOps · Policy as Code
         description: |
-          반복적인 보안 점검을 자동화하고, 이벤트 대응을 플레이북으로 표준화하는 업무에
-          관심이 있습니다. Terraform, GitHub Actions, Azure DevOps 파이프라인 등을 활용해
-          DevSecOps 체계를 구축하고 싶습니다.
+          반복적인 보안 점검과 배포 전 검증을 자동화하여 안전한 릴리스를 돕고 싶습니다.
+          Terraform, GitHub Actions, OPA/Conftest 조합으로 보안 규칙을 코드화하고,
+          실패 지점이 명확히 드러나는 파이프라인을 설계하는 데 관심이 있습니다.
 
   - title: 직무 자격사항
     layout: list
     content:
       - layout: top-middle
         border: weak
-        title: 보안 운영 및 위협 분석
+        title: 핵심 보안 역량
         description: |
-          - SIEM(Splunk, ELK) 기반 로그 수집/분석 플로우를 설계하고 있습니다.
-          - MITRE ATT&CK 매트릭스를 참고해 탐지 룰과 대응 플로우를 문서화 중입니다.
+          - MITRE ATT&CK 기반의 위협 시나리오와 Use Case 템플릿을 정리하는 중입니다.
+          - Splunk/ELK를 활용한 로그 수집·분석 플로우와 기초 탐지 룰을 직접 구성하며 학습합니다.
       - layout: top-middle
         border: weak
-        title: 클라우드 인프라 & 아키텍처
+        title: 클라우드 & 인프라
         description: |
-          - AWS, Azure의 핵심 보안 서비스(GuardDuty, Security Center 등)를 실습하며 정리합니다.
-          - 네트워크 세분화, 암호화, 백업 전략을 IaC 템플릿으로 구성할 계획입니다.
+          - AWS Security Hub, GuardDuty, Azure Security Center 실습 기록을 작성 중입니다.
+          - 네트워크 세그멘테이션, 암호화, 백업 전략을 IaC 템플릿으로 문서화할 계획입니다.
       - layout: top-middle
         border: weak
-        title: DevSecOps & 자동화
+        title: 협업 & 문서화
         description: |
-          - GitHub Actions로 정적 분석, 취약점 스캔, 아티팩트 서명을 자동화하려고 합니다.
-          - 정책을 코드화(OPA, Conftest)하여 배포 전 검증 단계를 마련하는 것을 목표로 합니다.
+          - GitHub Projects로 작업 흐름을 추적하고, Notion/Markdown으로 변경 이력을 남깁니다.
+          - 사용자/개발/보안팀이 공유할 수 있는 **체크리스트·FAQ·플레이북**을 제작하려 합니다.
 
   - title: 프로젝트 자료
     layout: list
@@ -135,8 +141,28 @@ content:
         link: /assets/docs/security-cloud-projects.pdf
         link_text: PDF 다운로드
         description: |
-          현재는 자리 표시자 문서로, 프로젝트 구조와 제출 포맷 예시를 확인할 수 있습니다.
-          실제 프로젝트를 정리하게 되면 동일한 경로의 PDF를 교체해 즉시 공유할 예정입니다.
+          브라우저에서 바로 내려받을 수 있는 기본 PDF 틀입니다. 실제 프로젝트 레포트를 작성하면
+          같은 경로의 파일만 교체하면 되도록 구성했습니다. (scripts/generate_placeholder_pdf.ps1 이용 가능)
+      - layout: left
+        border: weak
+        title: 향후 프로젝트 슬롯
+        caption: 필요할 때 이 블록을 복제해서 사용하세요
+        description: |
+          1. 제목과 기간, 사용 기술을 이 구간에 입력합니다.
+          2. `additional_links` 나 `quote` 필드를 추가하면 레퍼런스/메모도 함께 관리할 수 있습니다.
+          3. 완성된 프로젝트 PDF가 있다면 `link`와 `link_text`만 수정하면 바로 연동됩니다.
+
+# 아래 주석 블록을 복제하면 새 섹션을 쉽게 추가할 수 있습니다.
+# template_section:
+#   - title: 새 섹션 제목
+#     layout: list # 또는 text
+#     content:
+#       - layout: left
+#         border: weak
+#         title: 항목 이름
+#         caption: 기간 또는 태그
+#         description: |
+#           세부 내용을 여기에 작성하세요.
 
 # Footer
 footer_show_references: true
