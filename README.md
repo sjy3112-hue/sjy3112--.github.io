@@ -5,6 +5,16 @@
 
 [View Demo](https://sproogen.github.io/modern-resume-theme/)
 
+---
+
+## 🇰🇷 한국어 사용자를 위한 가이드
+
+**GitHub 웹 에디터로 테마 커스터마이징하기 (초보자용)**
+- 📖 [커스터마이징 가이드 보기](CUSTOMIZATION_GUIDE.md) - GitHub 웹사이트에서 직접 파일을 편집하는 방법
+- 이 가이드는 GitHub에 코드를 설치할 필요 없이 브라우저만으로 테마를 커스터마이징할 수 있도록 도와줍니다
+
+---
+
 ----
 
 ## Announcements
